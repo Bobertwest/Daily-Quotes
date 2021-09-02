@@ -1,0 +1,136 @@
+@import "_paleta";
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans&display=swap");
+
+.fraseContainer {
+  background-color: $background-quote-color;
+  position: absolute;
+  margin: auto;
+  width: 63%;
+  height: 430px;
+  border-radius: 31px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  .texto {
+    width: 100%;
+    display: flex;
+    margin-bottom: 0;
+    align-items: center;
+
+    span {
+      font-family: "PT Sans", sans-serif;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 200px;
+      padding-bottom: 8%;
+      text-align: center;
+      margin-left: 5%;
+      color: $quote-text-color;
+    }
+    .frase {
+      color: $quote-text-color;
+      font-family: "PT Sans", sans-serif;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 36px;
+      line-height: 62px;
+      text-align: center;
+      display: flex;
+      justify-content: center;
+      margin-right: 5%;
+      width: 100%;
+    }
+  }
+  .autor {
+    width: 100%;
+    margin-top: 0;
+    padding: 0 10%;
+    text-align: end;
+    font-style: italic;
+    font-family: "PT Sans", sans-serif;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 47px;
+    color: $autor-color;
+    display: flex;
+    justify-content: flex-end;
+  }
+  .refresh {
+    position: absolute;
+    left: 95%;
+    top: 90%;
+    padding: 1% 1.3%;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    background-color: $boton-color;
+    .refreshicon {
+      font-size: 50px;
+      font-weight: bold;
+    }
+  }
+}
+
+@media screen and (max-width: 1030px) {
+  .fraseContainer {
+    .texto {
+      span {
+        font-size: 150px;
+      }
+      .frase {
+        font-size: 25px;
+        line-height: 40px;
+      }
+    }
+    .autor {
+      font-size: 20px;
+    }
+  }
+}
+
+@media screen and (max-width: 690px) {
+  .fraseContainer {
+    height: 50%;
+    .texto {
+      span {
+        font-size: 70px;
+      }
+      .frase {
+        font-size: 20px;
+        line-height: 35px;
+      }
+    }
+    .autor {
+      font-size: 15px;
+    }
+    .refresh {
+      left: 90%;
+    }
+  }
+}
+
+@media screen and (max-width: 570px) {
+  .fraseContainer {
+    width: 80%;
+    span {
+      font-size: 50px;
+    }
+  }
+}
+
+@media screen and (max-width: 490px) {
+  .fraseContainer {
+    .texto {
+      span {
+        font-size: 40px;
+      }
+      .frase {
+        font-size: 17px;
+        line-height: 25px;
+      }
+    }
+    .autor {
+      font-size: 14px;
+    }
+  }
+}
