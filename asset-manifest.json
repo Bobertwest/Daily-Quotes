@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/Daily-Quotes/static/css/main.813f6841.chunk.css",
-    "main.js": "/Daily-Quotes/static/js/main.052c1ff9.chunk.js",
-    "main.js.map": "/Daily-Quotes/static/js/main.052c1ff9.chunk.js.map",
+    "main.js": "/Daily-Quotes/static/js/main.7616d706.chunk.js",
+    "main.js.map": "/Daily-Quotes/static/js/main.7616d706.chunk.js.map",
     "runtime-main.js": "/Daily-Quotes/static/js/runtime-main.4697a6cb.js",
     "runtime-main.js.map": "/Daily-Quotes/static/js/runtime-main.4697a6cb.js.map",
-    "static/js/2.81113b57.chunk.js": "/Daily-Quotes/static/js/2.81113b57.chunk.js",
-    "static/js/2.81113b57.chunk.js.map": "/Daily-Quotes/static/js/2.81113b57.chunk.js.map",
+    "static/js/2.d21b5f34.chunk.js": "/Daily-Quotes/static/js/2.d21b5f34.chunk.js",
+    "static/js/2.d21b5f34.chunk.js.map": "/Daily-Quotes/static/js/2.d21b5f34.chunk.js.map",
     "index.html": "/Daily-Quotes/index.html",
     "static/css/main.813f6841.chunk.css.map": "/Daily-Quotes/static/css/main.813f6841.chunk.css.map",
-    "static/js/2.81113b57.chunk.js.LICENSE.txt": "/Daily-Quotes/static/js/2.81113b57.chunk.js.LICENSE.txt"
+    "static/js/2.d21b5f34.chunk.js.LICENSE.txt": "/Daily-Quotes/static/js/2.d21b5f34.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.4697a6cb.js",
-    "static/js/2.81113b57.chunk.js",
+    "static/js/2.d21b5f34.chunk.js",
     "static/css/main.813f6841.chunk.css",
-    "static/js/main.052c1ff9.chunk.js"
+    "static/js/main.7616d706.chunk.js"
   ]
 }
