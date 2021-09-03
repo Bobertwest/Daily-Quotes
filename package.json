@@ -2,7 +2,7 @@
   "name": "motivational-daily-quote",
   "version": "0.1.0",
   "private": true,
-  "homepage": "bobertwest.github.io/Daily-Quotes",
+  "homepage": "http://bobertwest.github.io/Daily-Quotes",
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^11.2.7",
